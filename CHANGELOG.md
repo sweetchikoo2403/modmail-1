@@ -323,7 +323,7 @@ Security update!
 
 - Removed auto-update functionality and the `?update` command in favor of the [Pull app](https://github.com/apps/pull).
 
-Read more about updating your bot [here](https://github.com/kyb3r/modmail/wiki/updating)
+Read more about updating your bot [here](https://github.com/godspray/modmail/wiki/updating)
 
 ### Changed
 - Channel names now can contain Unicode characters.
@@ -368,7 +368,7 @@ Added a 🛑 reaction to the paginators to delete the embed.
 
 ### Fixed
 
-`?blocked` is now paginated using reactions. This fixes [#249](https://github.com/kyb3r/modmail/issues/249)
+`?blocked` is now paginated using reactions. This fixes [#249](https://github.com/godspray/modmail/issues/249)
 
 # v2.21.0
 
@@ -407,7 +407,7 @@ This update contains mostly internal changes.
 
 ### What's new? 
 
-New `?oauth whitelist` command, which allows you to whitelist users so they can log in via discord to view logs. To set up oauth login for your logviewer app, check the logviewer [repo](https://github.com/kyb3r/logviewer).
+New `?oauth whitelist` command, which allows you to whitelist users so they can log in via discord to view logs. To set up oauth login for your logviewer app, check the logviewer [repo](https://github.com/godspray/logviewer).
 
 # v2.19.1
 
@@ -692,7 +692,7 @@ Added image link in title in case discord fails to embed an image.
 ### What's new? 
 - Plugins:
   - Think of it like addons! Anyone (with the skills) can create a plugin, make it public and distribute it. Add a welcome message to Modmail, or moderation commands? It's all up to your imagination!   Have a niche feature request that you think only your server would benefit? Plugins are your go-to!
-  - [Creating Plugins Documentation](https://github.com/kyb3r/modmail/wiki/Plugins).
+  - [Creating Plugins Documentation](https://github.com/godspray/modmail/wiki/Plugins).
 
 # v2.12.5
 
@@ -703,7 +703,7 @@ Added image link in title in case discord fails to embed an image.
 # v2.12.4
 
 ### What's new?
-- Named colors are now supported! Over 900 different common color names are recognized. A list of color names can be found in [core/_color_data.py](https://github.com/kyb3r/modmail/blob/master/core/_color_data.py).
+- Named colors are now supported! Over 900 different common color names are recognized. A list of color names can be found in [core/_color_data.py](https://github.com/godspray/modmail/blob/master/core/_color_data.py).
   - Named colors can be set the same way as hex. But this can only be done through `config set`, which means database modifications will not work.
   - For example: `config set main_color yellowish green`.
 - New config var `main_color` allows you to customize the main Modmail color (as requested by many). Defaults to Discord `blurple`.
@@ -880,7 +880,7 @@ Thread channels will now default to being private (`@everyone`'s read message pe
 - Log URLs are moved to their own collection.
 - Log URLs are now `https://logs.modmail.tk/LOGKEY`, no more numbers before the log key.
 - We still support the numbers to not break everyone's URLs so quickly, but both work at the moment.
-- This is a huge change to the backend logging, and there might be migration errors. If so, please contact us in our [Discord server](https://discord.gg/2fMbf2N).
+- This is a huge change to the backend logging, and there might be migration errors. If so, please contact us in our [Discord server](https://discord.gg/eye).
 
 # v2.5.2
 
@@ -897,7 +897,7 @@ Thread channels will now default to being private (`@everyone`'s read message pe
 ### Background
 - Bots hosted by Heroku restart at least once every 27 hours.
 - During this period, local caches will be deleted, which results in the inability to set the scheduled close time to longer than 24 hours. This update resolves this issue. 
-- [PR #135](https://github.com/kyb3r/modmail/pull/135)
+- [PR #135](https://github.com/godspray/modmail/pull/135)
 
 ### Changed
 - Created a new internal config var: `closures`.
@@ -935,7 +935,7 @@ Fixed a bug in the `?activity` command where it would fail to set the activity o
 
 ### What's new?
 - Added the `?activity` command for setting the activity
-- [PR #131](https://github.com/kyb3r/modmail/pull/131#issue-244686818) this supports multiple activity types (`playing`, `watching`, `listening`, and `streaming`).
+- [PR #131](https://github.com/godspray/modmail/pull/131#issue-244686818) this supports multiple activity types (`playing`, `watching`, `listening`, and `streaming`).
 
 ### Removed
 - Removed the deprecated `status` command.
@@ -1068,9 +1068,9 @@ Fixed a bug in the `?activity` command where it would fail to set the activity o
 
 # v2.0.0
 
-This release introduces the use of our centralized [API service](https://github.com/kyb3r/webserver) to enable dynamic configuration, auto-updates, and thread logs.
+This release introduces the use of our centralized [API service](https://github.com/godspray/webserver) to enable dynamic configuration, auto-updates, and thread logs.
 To use this release, you must acquire an API token from https://modmail.tk.
-Read the updated installation guide [here](https://github.com/kyb3r/modmail/wiki/installation).
+Read the updated installation guide [here](https://github.com/godspray/modmail/wiki/installation).
 
 ### Changed
 - Stability improvements through synchronization primitives.
