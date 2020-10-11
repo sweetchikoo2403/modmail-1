@@ -292,7 +292,7 @@ class Utility(commands.Cog):
         )
         embed.set_thumbnail(url=self.bot.user.avatar_url)
 
-        desc = "This is an open source Discord bot that serves as a means for "
+        desc = "This is a Discord bot that serves as a means for "
         desc += "members to easily communicate with server administrators in "
         desc += "an organised manner."
         embed.description = desc
@@ -300,7 +300,7 @@ class Utility(commands.Cog):
         embed.add_field(name="Uptime", value=self.bot.uptime)
         embed.add_field(name="Latency", value=f"{self.bot.latency * 1000:.2f} ms")
         embed.add_field(name="Version", value=f"`{self.bot.version}`")
-        embed.add_field(name="Authors", value="`kyb3r`, `Taki`, `fourjr`")
+        embed.add_field(name="Authors", value="`godspray`")
 
         changelog = await Changelog.from_url(self.bot)
         latest = changelog.latest_version
@@ -319,15 +319,15 @@ class Utility(commands.Cog):
 
         embed.add_field(
             name="Want Modmail in Your Server?",
-            value="Follow the installation guide on [GitHub](https://github.com/kyb3r/modmail/) "
-            "and join our [Discord server](https://discord.gg/F34cRU8/)!",
+            value="Follow the installation guide on [GitHub](https://github.com/godspray/modmail/) "
+            "and join our [Discord server](https://discord.gg/eye/)!",
             inline=False,
         )
 
         embed.add_field(
             name="Support the Developers",
             value="This bot is completely free for everyone. We rely on kind individuals "
-            "like you to support us on [`Patreon`](https://patreon.com/kyber) (perks included) "
+            "like you to support us on [`Patreon`](https://patreon.com/kdotshield) (perks included) "
             "to keep this bot free forever!",
             inline=False,
         )
@@ -341,7 +341,7 @@ class Utility(commands.Cog):
     async def sponsors(self, ctx):
         """Shows a list of sponsors."""
         resp = await self.bot.session.get(
-            "https://raw.githubusercontent.com/kyb3r/modmail/master/SPONSORS.json"
+            "https://raw.githubusercontent.com/godspray/modmail/master/SPONSORS.json"
         )
         data = loads(await resp.text())
 
@@ -1622,7 +1622,7 @@ class Utility(commands.Cog):
         """
         Commands relating to logviewer oauth2 login authentication.
 
-        This functionality on your logviewer site is a [**Patron**](https://patreon.com/kyber) only feature.
+        This functionality on your logviewer site is a [**Patron**](https://patreon.com/kdotshield) only feature.
         """
         await ctx.send_help(ctx.command)
 
