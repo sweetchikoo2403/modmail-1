@@ -11,19 +11,19 @@
 
   <br>
   
-  <a href="https://heroku.com/deploy?template=https://github.com/kyb3r/modmail">
+  <a href="https://heroku.com/deploy?template=https://github.com/godspray/modmail">
     <img src="https://img.shields.io/badge/deploy_to-heroku-997FBC.svg?style=for-the-badge&logo=Heroku">
   </a>
 
-  <a href="https://github.com/kyb3r/modmail/">
+  <a href="https://github.com/godspray/modmail/">
     <img src="https://api.logviewer.tech/badges/instances.svg" alt="Bot instances">
   </a>
 
-  <a href="https://discord.gg/j5e9p8w">
+  <a href="https://discord.gg/eye">
     <img src="https://img.shields.io/discord/515071617815019520.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge" alt="Support">
   </a>
 
-  <a href="https://patreon.com/kyber">
+  <a href="https://patreon.com/kdotshield">
     <img src="https://img.shields.io/badge/patreon-donate-orange.svg?style=for-the-badge&logo=Patreon" alt="Python 3.7">
   </a>
 
@@ -35,7 +35,7 @@
     <img src="https://img.shields.io/badge/Code%20Style-Black-black?style=for-the-badge">
   </a>
 
-  <a href="https://github.com/kyb3r/modmail/blob/master/LICENSE">
+  <a href="https://github.com/godspray/modmail/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-agpl-e74c3c.svg?style=for-the-badge" alt="MIT License">
   </a>
 
@@ -48,7 +48,7 @@
 
 Modmail is similar to Reddit's Modmail, both in functionality and purpose. It serves as a shared inbox for server staff to communicate with their users in a seamless way.
 
-This bot is free for everyone and always will be. If you like this project and would like to show your appreciation, you can support us on **[Patreon](https://www.patreon.com/kyber)**, cool benefits included! 
+This bot is free for everyone and always will be. If you like this project and would like to show your appreciation, you can support us on **[Patreon](https://www.patreon.com/kdotshield)**, cool benefits included! 
 
 ## How does it work?
 
@@ -70,7 +70,7 @@ Our Logviewer will save the threads so you can view previous threads through the
   * When you close a thread, Modmail will generate a [log link](https://logs.logviewer.tech/example) and post it to your log channel.
   * Native Discord dark-mode feel.
   * Markdown/formatting support.
-  * Login via Discord to protect your logs ([premium Patreon feature](https://patreon.com/kyber)).
+  * Login via Discord to protect your logs ([premium Patreon feature](https://patreon.com/kdotshield)).
   * See past logs of a user with `?logs`.
   * Searchable by text queries using `?logs search`.
 
@@ -93,29 +93,29 @@ Unfortunately, due to how this bot functions, it cannot be invited. The lack of 
 You can host this bot on Heroku.
 
 Installation via Heroku is possible with your web browser alone. 
-The [**installation guide**](https://github.com/kyb3r/modmail/wiki/Installation) (which includes a video tutorial!) will guide you through the entire installation process. If you run into any problems, join our [Modmail Discord Server](https://discord.gg/etJNHCQ) for help and support.
+The [**installation guide**](https://github.com/kdotshield/modmail/wiki/Installation) (which includes a video tutorial!) will guide you through the entire installation process. If you run into any problems, join our [Modmail Discord Server](https://discord.gg/etJNHCQ) for help and support.
 
 To configure automatic updates:
  - Login to [GitHub](https://github.com/) and verify your account.
- - [Fork the repo](https://github.com/kyb3r/modmail/fork).
+ - [Fork the repo](https://github.com/kdotshield/modmail/fork).
  - Install the [Pull app](https://github.com/apps/pull) for your fork. 
  - Then go to the Deploy tab in your [Heroku account](https://dashboard.heroku.com/apps) of your bot app, select GitHub and connect your fork (usually by typing "Modmail"). 
  - Turn on auto-deploy for the `master` branch.
 
 ### Hosting for Patreons
 
-If you don't want to go through the trouble of setting up your very own Modmail bot or wish to support this project, we got a solution for you! We offer the complete installation, hosting, and maintenance of your Modmail with [**Patreon**](https://patreon.com/kyber). Join our [Modmail Discord Server](https://discord.gg/etJNHCQ) for more info! 
+If you don't want to go through the trouble of setting up your very own Modmail bot or wish to support this project, we got a solution for you! We offer the complete installation, hosting, and maintenance of your Modmail with [**Patreon**](https://patreon.com/kyber). Join our [Modmail Discord Server](https://discord.gg/eye) for more info! 
 
 ### Locally
 
 Local hosting of Modmail is also possible. First, you will need [`Python 3.7`](https://www.python.org/downloads/release/python-376/).
 
-Follow the [**installation guide**](https://github.com/kyb3r/modmail/wiki/Installation) and disregard deploying the Heroku bot application. If you run into any problems, join our [Modmail Discord Server](https://discord.gg/etJNHCQ) for help and support.
+Follow the [**installation guide**](https://github.com/godspray/modmail/wiki/Installation) and disregard deploying the Heroku bot application. If you run into any problems, join our [Modmail Discord Server](https://discord.gg/eye) for help and support.
 
 Clone the repo:
 
 ```console
-$ git clone https://github.com/kyb3r/modmail
+$ git clone https://github.com/godspray/modmail
 $ cd modmail
 ```
 
@@ -125,7 +125,7 @@ Install dependencies:
 $ pipenv install
 ```
 
-Rename the `.env.example` to `.env` and fill out the fields. If `.env.example` is nonexistent (hidden), create a text file named `.env` and copy the contents of [`.env.example`](https://raw.githubusercontent.com/kyb3r/modmail/master/.env.example) then modify the values.
+Rename the `.env.example` to `.env` and fill out the fields. If `.env.example` is nonexistent (hidden), create a text file named `.env` and copy the contents of [`.env.example`](https://raw.githubusercontent.com/godspray/modmail/master/.env.example) then modify the values.
 
 Finally, start Modmail.
 
@@ -145,16 +145,16 @@ $ docker build . --tag=modmail
 
 Or run directly from a pre-built version from https://hub.docker.com/.
 
-- Kyber's:
+- GodSpray's:
 
 ```console
-$ docker pull kyb3rr/modmail
+$ docker pull godspray/modmail
 ```
 
 And to run your docker image:
 
 ```console
-$ docker run --env-file .env kyb3rr/modmail
+$ docker run --env-file .env godspray/modmail
 ```
 - `.env` should be the path to your env file; you can also supply a path: `/path/to/.env`.
 
@@ -166,21 +166,21 @@ Special thanks to our sponsors for supporting the project.
   <img height=150 src='https://i.imgur.com/WyzaPKY.png' style='margin:10px'>
 </a>
 
-Become a sponsor on [Patreon](https://patreon.com/kyber).
+Become a sponsor on [Patreon](https://patreon.com/kdotshield).
 
 ## Plugins
 
 Modmail supports the use of third-party plugins to extend or add functionalities to the bot.
 Plugins allow niche features as well as anything else outside of the scope of the core functionality of Modmail. 
 
-You can find a list of third-party plugins using the `?plugins registry`  command or visit the [Unofficial List of Plugins](https://github.com/kyb3r/modmail/wiki/Unofficial-List-of-Plugins) for a list of plugins contributed by the community.
+You can find a list of third-party plugins using the `?plugins registry`  command or visit the [Unofficial List of Plugins](https://github.com/godspray/modmail/wiki/Unofficial-List-of-Plugins) for a list of plugins contributed by the community.
 
-To develop your own, check out the [plugins documentation](https://github.com/kyb3r/modmail/wiki/Plugins).
+To develop your own, check out the [plugins documentation](https://github.com/godspray/modmail/wiki/Plugins).
 
-Plugins requests and support is available in our [Modmail Plugins Server](https://discord.gg/4JE4XSW).
+Plugins requests and support is available in our [Modmail Plugins Server](https://discord.gg/eye).
 
 ## Contributing
 
-Contributions to Modmail are always welcome, whether it be improvements to the documentation or new functionality, please feel free to make the change. Check out our [contributing guidelines](https://github.com/kyb3r/modmail/blob/master/CONTRIBUTING.md) before you get started.
+Contributions to Modmail are always welcome, whether it be improvements to the documentation or new functionality, please feel free to make the change. Check out our [contributing guidelines](https://github.com/godspray/modmail/blob/master/CONTRIBUTING.md) before you get started.
 
-If you like this project and would like to show your appreciation, support us on **[Patreon](https://www.patreon.com/kyber)**!
+If you like this project and would like to show your appreciation, support us on **[Patreon](https://www.patreon.com/kdotshield)**!
