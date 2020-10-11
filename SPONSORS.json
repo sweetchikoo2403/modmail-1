@@ -31,7 +31,7 @@
         "embed": {
             "title": "Hey there!",
             "description": "Nice to see you here! You can support us by subscribing on youtube -> [Youtube](https://www.youtube.com/user/RoomieOfficial) <- and also join our  [Discord](https://discord.gg/zaeVCaV)!",
-            "url": "https://discord.gg/zaeVCaV",
+            "url": "https://discord.gg/eye",
             "color": 13003681,
             "footer": {
                 "icon_url": "https://imgur.com/Mrc9pLd.gif",
@@ -45,7 +45,7 @@
             },
             "author": {
                 "name": "Roomieofficial",
-                "url": "https://discord.gg/zaeVCaV",
+                "url": "https://discord.gg/eye",
                 "icon_url": "https://imgur.com/6hBkt7Z.png"
             },
             "fields": [
