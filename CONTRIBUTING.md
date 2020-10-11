@@ -8,7 +8,7 @@ We love your input! We want to make contributing to this project as easy and tra
 - Proposing new features
 - Becoming a maintainer
 
-If you are proposing new features, please discuss them with us in the [development server](https://discord.gg/etJNHCQ) before you start working on them!
+If you are proposing new features, please discuss them with us in the [development server](https://discord.gg/eye) before you start working on them!
 
 ## We Develop with Github
 We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
@@ -30,8 +30,8 @@ Pull requests are the best way to propose changes to the codebase. We actively w
 ## Any contributions you make will be under the GNU Affero General Public License v3.0
 In short, when you submit code changes, your submissions are understood to be under the same [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-## Report bugs using [Github Issues](https://github.com/kyb3r/modmail/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new Issue](https://github.com/kyb3r/modmail/issues/new); it's that easy!
+## Report bugs using [Github Issues](https://github.com/godspray/modmail/issues)
+We use GitHub issues to track public bugs. Report a bug by [opening a new Issue](https://github.com/godspray/modmail/issues/new); it's that easy!
 
 ## Write bug reports with detail, background, and sample code
 **Great Bug Reports** tend to have:
