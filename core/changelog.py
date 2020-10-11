@@ -51,7 +51,7 @@ class Version:
         self.version = version.lstrip("vV")
         self.lines = lines.strip()
         self.fields = {}
-        self.changelog_url = f"https://github.com/kyb3r/modmail/blob/{branch}/CHANGELOG.md"
+        self.changelog_url = f"https://github.com/godspray/modmail/blob/{branch}/CHANGELOG.md"
         self.description = ""
         self.parse()
 
@@ -168,7 +168,7 @@ class Changelog:
             The newly created `Changelog` parsed from the `url`.
         """
         branch = "master" if not bot.version.is_prerelease else "development"
-        url = url or f"https://raw.githubusercontent.com/kyb3r/modmail/{branch}/CHANGELOG.md"
+        url = url or f"https://raw.githubusercontent.com/godspray/modmail/{branch}/CHANGELOG.md"
 
         async with await bot.session.get(url) as resp:
             return cls(bot, branch, await resp.text())
