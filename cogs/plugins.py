@@ -93,7 +93,7 @@ class Plugins(commands.Cog):
     These addons could have a range of features from moderation to simply
     making your life as a moderator easier!
     Learn how to create a plugin yourself here:
-    https://github.com/kyb3r/modmail/wiki/Plugins
+    https://github.com/godspray/modmail/wiki/Plugins
     """
 
     def __init__(self, bot):
@@ -110,7 +110,7 @@ class Plugins(commands.Cog):
             logger.info("Plugins not loaded since ENABLE_PLUGINS=false.")
 
     async def populate_registry(self):
-        url = "https://raw.githubusercontent.com/kyb3r/modmail/master/plugins/registry.json"
+        url = "https://raw.githubusercontent.com/godspray/modmail/master/plugins/registry.json"
         async with self.bot.session.get(url) as resp:
             self.registry = json.loads(await resp.text())
 
